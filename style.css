@@ -1,0 +1,37 @@
+.imagenes{
+
+    display: flex;
+  
+    height: 700px;
+  
+  
+  
+  }
+  
+  .imagen{
+  
+    filter: none;
+  
+    min-width: 0;
+  
+    flex: 1 1 10px;
+  
+    object-fit: cover;
+  
+    opacity: 0.5;
+  
+    transition: 0.5s;
+  
+  }
+  
+  
+  
+  .imagen:hover{
+  
+    fill: none;
+  
+    flex:1 1 10%;
+  
+    opacity: 1;
+  
+  }
